@@ -106,10 +106,10 @@ img, svg { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 82px;
+  height: 104px;
 }
 .logo { display: flex; align-items: center; flex-direction: column; line-height: 1.1; }
-.logo img { height: 72px; width: auto; display: block; }
+.logo img { height: 92px; width: auto; display: block; }
 .logo-main {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 800;
@@ -588,7 +588,7 @@ img, svg { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--border);
 }
 .footer-brand .logo-main { color: var(--text-dark); }
-.footer-brand img { height: 76px; width: auto; display: block; }
+.footer-brand img { height: 100px; width: auto; display: block; }
 .footer-brand p { margin-top: 14px; font-size: 0.9rem; line-height: 1.7; }
 .footer-social { display: flex; gap: 12px; margin-top: 18px; }
 .footer-social a {
@@ -647,7 +647,7 @@ img, svg { max-width: 100%; display: block; }
 @media (max-width: 860px) {
   .main-nav {
     position: fixed;
-    top: 82px; left: 0; right: 0;
+    top: 104px; left: 0; right: 0;
     background: var(--white);
     flex-direction: column;
     padding: 10px 24px 24px;
